@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/seyeologunja/Users/seyeologunja/Documents/UI_AUTOMATION_TASK/Selenium_WebDriver/Single_Page_Approach/Monsnap">
+    <classes>
+        <class name="Login.LoginTests">
+            <methods>
+                <include name="testSuccessfulLogin"/>
+                <include name="testSuccessfulLogout"/>
+                <include name="testNegativeLogin"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
